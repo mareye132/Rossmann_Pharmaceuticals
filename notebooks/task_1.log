@@ -42,3 +42,71 @@ dtype: int64
 2024-09-19 15:27:25,833 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2024-09-19 15:27:25,871 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2024-09-19 15:27:25,947 - INFO - Analyzed and compared promo distribution in training and test sets
+2024-09-19 15:29:20,009 - INFO - Starting Task 1 - Data Exploration
+2024-09-19 15:29:20,927 - INFO - Store and Training datasets loaded successfully
+2024-09-19 15:29:23,778 - INFO - Missing values in store dataset:
+Store                          0
+StoreType                      0
+Assortment                     0
+CompetitionDistance            3
+CompetitionOpenSinceMonth    354
+CompetitionOpenSinceYear     354
+Promo2                         0
+Promo2SinceWeek              544
+Promo2SinceYear              544
+PromoInterval                544
+dtype: int64
+2024-09-19 15:29:23,778 - INFO - Missing values in train dataset:
+Store            0
+DayOfWeek        0
+Date             0
+Sales            0
+Customers        0
+Open             0
+Promo            0
+StateHoliday     0
+SchoolHoliday    0
+dtype: int64
+2024-09-19 15:29:23,778 - INFO - Missing values handled in store dataset
+2024-09-19 15:29:28,917 - INFO - Missing values in store dataset:
+Store                        0
+StoreType                    0
+Assortment                   0
+CompetitionDistance          0
+CompetitionOpenSinceMonth    0
+CompetitionOpenSinceYear     0
+Promo2                       0
+Promo2SinceWeek              0
+Promo2SinceYear              0
+PromoInterval                0
+dtype: int64
+2024-09-19 15:29:28,917 - INFO - Missing values in train dataset:
+Store            0
+DayOfWeek        0
+Date             0
+Sales            0
+Customers        0
+Open             0
+Promo            0
+StateHoliday     0
+SchoolHoliday    0
+dtype: int64
+2024-09-19 15:29:28,922 - INFO - Missing values handled in store dataset
+2024-09-19 15:29:33,540 - INFO - Store and training datasets merged successfully
+2024-09-19 15:29:39,728 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 15:29:39,744 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 15:29:39,957 - INFO - Analyzed and compared promo distribution in training and test sets
+2024-09-19 15:31:06,626 - INFO - Analyzed seasonal (Christmas and Easter) purchase behaviors
+2024-09-19 15:32:06,886 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 15:32:06,886 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 15:32:06,979 - INFO - Analyzed if promos attract more customers
+2024-09-19 15:33:10,157 - INFO - Analyzed where promos could be more effective
+2024-09-19 15:33:40,785 - INFO - Analyzed customer trends during store opening/closing
+2024-09-19 15:34:05,122 - INFO - Analyzed how store weekday opening affects weekend sales
+2024-09-19 15:34:29,427 - INFO - Analyzed how assortment type affects sales
+2024-09-19 15:34:55,699 - INFO - Analyzed the effect of competitor distance on sales
+2024-09-19 15:35:13,719 - INFO - Analyzed effect of competitor opening/reopening
+2024-09-19 15:35:40,229 - INFO - Analyzed effect of competitor opening/reopening
+2024-09-19 15:35:51,385 - INFO - Exploratory data analysis completed
+2024-09-19 15:38:07,148 - INFO - Analyzed the effect of competitor openings on store sales
+2024-09-19 15:38:24,703 - INFO - Exploratory data analysis completed
