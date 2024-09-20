@@ -189,3 +189,63 @@ dtype: int64
 2024-09-20 08:49:24,011 - INFO - Analyzed sales behavior before, during, and after holidays
 2024-09-20 08:52:11,713 - INFO - Analyzed sales behavior before, during, and after holidays
 2024-09-20 08:52:21,936 - INFO - Analyzed sales behavior before, during, and after holidays
+2024-09-20 08:53:10,840 - INFO - Starting Task 1 - Data Exploration
+2024-09-20 08:53:11,372 - INFO - Store and Training datasets loaded successfully
+2024-09-20 08:53:13,336 - INFO - Missing values in store dataset:
+Store                          0
+StoreType                      0
+Assortment                     0
+CompetitionDistance            3
+CompetitionOpenSinceMonth    354
+CompetitionOpenSinceYear     354
+Promo2                         0
+Promo2SinceWeek              544
+Promo2SinceYear              544
+PromoInterval                544
+dtype: int64
+2024-09-20 08:53:13,336 - INFO - Missing values in train dataset:
+Store            0
+DayOfWeek        0
+Date             0
+Sales            0
+Customers        0
+Open             0
+Promo            0
+StateHoliday     0
+SchoolHoliday    0
+dtype: int64
+2024-09-20 08:53:13,344 - INFO - Missing values handled in store dataset
+2024-09-20 08:53:15,887 - INFO - Missing values in store dataset:
+Store                        0
+StoreType                    0
+Assortment                   0
+CompetitionDistance          0
+CompetitionOpenSinceMonth    0
+CompetitionOpenSinceYear     0
+Promo2                       0
+Promo2SinceWeek              0
+Promo2SinceYear              0
+PromoInterval                0
+dtype: int64
+2024-09-20 08:53:15,887 - INFO - Missing values in train dataset:
+Store            0
+DayOfWeek        0
+Date             0
+Sales            0
+Customers        0
+Open             0
+Promo            0
+StateHoliday     0
+SchoolHoliday    0
+dtype: int64
+2024-09-20 08:53:15,890 - INFO - Missing values handled in store dataset
+2024-09-20 08:53:19,334 - INFO - Store and training datasets merged successfully
+2024-09-20 08:53:23,610 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 08:53:24,076 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 08:53:24,400 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 08:53:24,410 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 08:53:24,476 - INFO - Analyzed and compared promo distribution in training and test sets
+2024-09-20 08:53:28,806 - INFO - Analyzed sales behavior before, during, and after holidays
+2024-09-20 08:54:30,563 - INFO - Analyzed sales behavior before, during, and after holidays
+2024-09-20 08:57:09,861 - INFO - Analyzed sales behavior before, during, and after holidays
+2024-09-20 09:00:05,851 - INFO - Analyzed sales behavior before, during, and after holidays
