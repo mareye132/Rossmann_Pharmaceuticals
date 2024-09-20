@@ -249,3 +249,4 @@ dtype: int64
 2024-09-20 08:54:30,563 - INFO - Analyzed sales behavior before, during, and after holidays
 2024-09-20 08:57:09,861 - INFO - Analyzed sales behavior before, during, and after holidays
 2024-09-20 09:00:05,851 - INFO - Analyzed sales behavior before, during, and after holidays
+2024-09-20 09:21:28,546 - INFO - Analyzed seasonal (Christmas and Easter) purchase behaviors, including sales and promotions.
