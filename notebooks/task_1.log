@@ -250,3 +250,52 @@ dtype: int64
 2024-09-20 08:57:09,861 - INFO - Analyzed sales behavior before, during, and after holidays
 2024-09-20 09:00:05,851 - INFO - Analyzed sales behavior before, during, and after holidays
 2024-09-20 09:21:28,546 - INFO - Analyzed seasonal (Christmas and Easter) purchase behaviors, including sales and promotions.
+2024-09-20 14:50:54,217 - INFO - Starting Task 1 - Data Exploration
+2024-09-20 14:50:55,265 - INFO - Store and Training datasets loaded successfully
+2024-09-20 14:53:03,523 - INFO - Missing values in store dataset:
+Store                          0
+StoreType                      0
+Assortment                     0
+CompetitionDistance            3
+CompetitionOpenSinceMonth    354
+CompetitionOpenSinceYear     354
+Promo2                         0
+Promo2SinceWeek              544
+Promo2SinceYear              544
+PromoInterval                544
+dtype: int64
+2024-09-20 14:53:03,523 - INFO - Missing values in train dataset:
+Store            0
+DayOfWeek        0
+Date             0
+Sales            0
+Customers        0
+Open             0
+Promo            0
+StateHoliday     0
+SchoolHoliday    0
+dtype: int64
+2024-09-20 14:53:03,568 - INFO - Missing values handled in store dataset
+2024-09-20 14:53:07,726 - INFO - Store and training datasets merged successfully
+2024-09-20 14:53:32,343 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 14:53:32,828 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 14:53:33,917 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 14:53:33,972 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 14:53:34,045 - INFO - Analyzed and compared promo distribution in training and test sets
+2024-09-20 14:53:44,985 - INFO - Analyzed sales behavior before, during, and after holidays
+2024-09-20 14:54:44,593 - INFO - Analyzed sales behavior before, during, and after holidays
+2024-09-20 14:55:00,542 - INFO - Analyzed seasonal (Christmas and Easter) purchase behaviors, including sales and promotions.
+2024-09-20 14:55:09,667 - INFO - Correlation between Sales and Customers: 0.8947107733017018
+2024-09-20 14:55:12,896 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 14:55:12,900 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 14:55:12,962 - INFO - Analyzed the effect of promotions on sales
+2024-09-20 14:55:15,947 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 14:55:15,950 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 14:55:16,010 - INFO - Analyzed if promos attract more customers
+2024-09-20 14:55:20,708 - INFO - Analyzed where promos could be more effective
+2024-09-20 14:55:26,485 - INFO - Analyzed customer trends during store opening/closing
+2024-09-20 14:55:29,133 - INFO - Analyzed how store weekday opening affects weekend sales
+2024-09-20 14:55:33,826 - INFO - Analyzed how assortment type affects sales
+2024-09-20 14:55:39,505 - INFO - Analyzed the effect of competitor distance on sales
+2024-09-20 14:55:44,333 - INFO - Analyzed the effect of competitor openings on store sales
+2024-09-20 14:55:48,901 - INFO - Exploratory data analysis completed
