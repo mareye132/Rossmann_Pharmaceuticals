@@ -5,3 +5,6 @@ joblib
 tensorflow
 matplotlib
 jupyter
+fastapi
+uvicorn
+
