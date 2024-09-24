@@ -1,1 +1,5 @@
+
 data
+*.pkl
+notebooks/task_1.log
+

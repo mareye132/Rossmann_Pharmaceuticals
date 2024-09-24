@@ -1,3 +1,4 @@
+
 #Task-1: Exploratory Data Analysis (EDA)
 Introduction
 This section outlines the Exploratory Data Analysis (EDA) performed on the Rossmann Pharmaceuticals dataset as part of Task-1. EDA is a crucial step in data analysis that helps in understanding the underlying patterns, detecting anomalies, and checking assumptions through summary statistics and visualizations. The primary objective of this analysis is to extract insights that inform business decisions, particularly regarding sales performance and the impact of promotions.
@@ -45,3 +46,6 @@ Competitor Impact:
 Evaluated the impact of new competitors entering the market, specifically examining stores with initially unknown competitor distances that later received valid data.
 Visualization of Results:
 The analysis included visualizations, such as bar plots, to illustrate the impact of holidays on sales, highlighting average sales figures before, during, and after holiday periods.
+
+# Rossmann_Pharmaceuticals
+
